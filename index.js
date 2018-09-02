@@ -1,11 +1,19 @@
 function scuberGreetingForFeet(someValue) {
-  let result
-  if (someValue <= 400) {
-    result = someValue;
-  }
-  return result
+  let message 
+  if (someValue < 400) {
+    message = `This one is on me!`;}
+
+    if (someValue > 2000) {
+      message = `I will gladly take your thirty bucks.`
+    }
+
+    if (someValue > 2500) {
+      message = `No can do.`
+    }
+  
+  return message 
 }
 
-ternaryCheckCity()
+function ternaryCheckCity() {}
 
-switchOnCharmFromTip()
+function switchOnCharmFromTip() {}
