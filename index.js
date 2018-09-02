@@ -1,25 +1,26 @@
 function scuberGreetingForFeet(someValue) {
-  let message
+  let result
   if (someValue < 400) {
-    message = `This one is on me!`;}
+    result = `This one is on me!`;}
 
     if (someValue > 2000) {
-      message = `I will gladly take your thirty bucks.`
+      result = `I will gladly take your thirty bucks.`
     }
 
     if (someValue > 2500) {
-      message = `No can do.`
+      result = `No can do.`
     }
-  return message
+  return result
 }
 
 function ternaryCheckCity(city) {
-  let message
-  if (city === `NYC`)
-  message = `Ok, sounds good.`
-  if (city = Pittsburgh)
-  message = `No go.`
-  return message 
+  let result
+  if (city === `NYC`) {
+  result = `Ok, sounds good.`
+  else
+  result = `No go.`;
+}
+  return result
 }
 
 function switchOnCharmFromTip() {}
