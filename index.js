@@ -10,10 +10,13 @@ function scuberGreetingForFeet(someValue) {
     if (someValue > 2500) {
       message = `No can do.`
     }
-  
   return message 
 }
 
-function ternaryCheckCity() {}
+function ternaryCheckCity(city) {
+  let message 
+  if (city === `NYC`)
+  message = `Ok, sounds good.`
+}
 
 function switchOnCharmFromTip() {}
